@@ -72,6 +72,6 @@ print(sentence)
 
 # March 01, 2016 fell on a Tuesday and was the 061 day of the year.
 
-sentence = '{:%B %d, %Y} fell on a {} and was the {} day of the year'.format(my_date)
+sentence = '{:%B %d, %Y} fell on a {0:%A} and was the {0:%j} day of the year'.format(my_date)
 
 print(sentence)
